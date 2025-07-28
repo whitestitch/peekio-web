@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peekio - Privacy Policy</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="flex flex-col min-h-screen">
+
+        <!-- Header -->
+        <header class="py-6 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="index.html" class="flex items-center space-x-2">
+                    <img src="img/peekio_logo.svg" alt="Peekio Logo" class="h-8 w-auto">
+                    <span class="text-2xl font-bold">Peekio</span>
+                </a>
+                <nav class="hidden md:flex space-x-8 text-lg">
+                    <a href="index.html" class="hover:text-gray-300">Home</a>
+                    <a href="terms.html" class="hover:text-white">Terms</a>
+                    <a href="privacy.html" class="hover:text-white">Privacy</a>
+                </nav>
+                <button id="mobile-menu-button" class="md:hidden p-2 rounded-md">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4">
+                <nav class="flex flex-col space-y-4 items-center">
+                    <a href="index.html" class="hover:text-gray-300">Home</a>
+                    <a href="terms.html" class="hover:text-white">Terms</a>
+                    <a href="privacy.html" class="hover:text-white">Privacy</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow top-gradient">
+            <div class="container main-bg max-w-4xl mx-auto px-8 sm:px-16 lg:px-24 py-24">
+                <h1 class="text-3xl sm:text-4xl font-bold mb-2">Privacy Policy for Peekio</h1>
+                <p class="text-gray-400 mb-8"><strong>Effective Date:</strong> April 13, 2025</p>
+
+                <div class="space-y-6 text-gray-300">
+                    <p>Peekio (“we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how we collect, use, disclose,
+                        and safeguard your information when you use the Peekio mobile application (“Peekio”, “the app”).</p>
+                    <p>By using Peekio, you agree to the collection and use of information in accordance with this policy.</p>
+
+                    <h2 class="text-2xl font-semibold text-white pt-4">1. Information We Collect</h2>
+                    <ul class="list-disc pl-8 space-y-2">
+                        <li><strong>Anonymous Authentication (Firebase Auth):</strong> We may assign you a unique anonymous identifier
+                            upon launching the app. Optional email is stored for Premium users.</li>
+                        <li><strong>Camera and Photo Access:</strong> Rear camera access is used for capturing Peekios. Images are
+                            temporary and deleted shortly after viewing.</li>
+                        <li><strong>Push Notification Tokens:</strong> Used solely for anonymous Peekio requests. Not linked to personal
+                            identity.</li>
+                        <li><strong>Usage Analytics:</strong> Firebase Analytics collects aggregated usage data.</li>
+                        <li><strong>Subscription Status:</strong> Stored anonymously in Firestore with plan type and upgrade timestamp.
+                        </li>
+                        <li><strong>Moderation:</strong> Images are analyzed using Google Cloud Vision API to block explicit content.
+                        </li>
+                    </ul>
+
+                    <h2 class="text-2xl font-semibold text-white pt-4">2. How We Use Your Data</h2>
+                    <p>We use your data to:</p>
+                    <ul class="list-disc pl-8 space-y-2">
+                        <li>Enable app features and interactions</li>
+                        <li>Send notifications</li>
+                        <li>Enforce content safety</li>
+                        <li>Maintain subscription access</li>
+                        <li>Improve app performance</li>
+                    </ul>
+
+                    <h2 class="text-2xl font-semibold text-white pt-4">3. What We Don't Do</h2>
+                    <ul class="list-disc pl-8 space-y-2">
+                        <li>We do not collect real names or contact info</li>
+                        <li>We do not sell or share data</li>
+                        <li>No ads or trackers are used</li>
+                    </ul>
+
+                    <h2 class="text-2xl font-semibold text-white pt-4">4. Data Retention & Deletion</h2>
+                    <ul class="list-disc pl-8 space-y-2">
+                        <li>Photos auto-delete after being viewed or expired</li>
+                        <li>Tokens are removed on uninstall</li>
+                        <li>Old Peekio sessions are purged automatically</li>
+                    </ul>
+
+                    <h2 class="text-2xl font-semibold text-white pt-4">5. Children's Privacy</h2>
+                    <p>Peekio is not for users under 13. If a child uses the app, contact us to remove their data.</p>
+
+                    <h2 class="text-2xl font-semibold text-white pt-4">6. Location Data</h2>
+                    <p>Optional location features may use approximate (not precise) location only with user consent.</p>
+
+                    <h2 class="text-2xl font-semibold text-white pt-4">7. Contact Us</h2>
+                    <p>Email: support@Peekioapp.io<br>Developer: White Stitch</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="py-4 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
+            <div class="container mx-auto flex justify-between items-center text-gray-400">
+                <div class="flex items-center space-x-6">
+                    <a href="terms.html" class="hover:text-white text-sm">Terms of Service</a>
+                    <a href="privacy.html" class="hover:text-white text-sm">Privacy Policy</a>
+                </div>
+
+                <div class="flex items-center space-x-6">
+                    <p class="text-sm">&copy; 2025 Peekio. All rights reserved.</p>
+
+                    <svg width="50" viewBox="0 0 490 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M392.657 15.0147C330.258 -1.70515 266.119 35.3253 249.398 97.7247C232.679 160.124 269.71 224.263 332.109 240.982C394.507 257.702 458.646 220.672 475.367 158.272C492.086 95.8732 455.055 31.7345 392.657 15.0147Z"
+                            stroke="white" stroke-width="20.052" stroke-miterlimit="10" />
+                        <path
+                            d="M337.766 113.036C356.841 118.147 368.183 137.794 363.072 156.869C359.015 172.013 345.843 182.196 331.085 183.274C335.669 185.886 340.662 187.916 345.944 189.332C379.811 198.406 414.639 178.297 423.713 144.432C432.788 110.566 412.679 75.7378 378.813 66.6634C344.948 57.5892 310.119 77.6974 301.044 111.563C299.613 116.904 298.949 122.199 298.861 127.46C307.175 115.218 322.58 108.904 337.722 112.961L337.766 113.036Z"
+                            fill="white" />
+                        <path
+                            d="M158.273 15.0176C95.8732 -1.70227 31.7345 35.3283 15.0147 97.7275C-1.70513 160.127 35.3253 224.266 97.7247 240.985C160.124 257.704 224.263 220.675 240.982 158.275C257.703 95.8762 220.672 31.7375 158.273 15.0176Z"
+                            stroke="white" stroke-width="20.052" stroke-miterlimit="10" />
+                        <path
+                            d="M112.434 186.108C110.653 185.631 108.908 185.077 107.206 184.455C118.905 180.303 128.457 170.681 131.925 157.737C137.392 137.336 125.647 116.345 105.613 110.205L105.549 110.094L104.211 109.736C91.2749 106.27 78.1734 109.727 68.7285 117.773C69.0341 115.996 69.42 114.216 69.8979 112.432C78.4945 80.3491 111.491 61.2988 143.573 69.8954C175.656 78.4922 194.706 111.488 186.11 143.571C177.514 175.654 144.517 194.704 112.434 186.108Z"
+                            fill="white" stroke="white" stroke-width="6.68397" />
+                    </svg>
+
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

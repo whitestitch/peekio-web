@@ -1,0 +1,74 @@
+/* GLOBAL */
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #140735;
+	color: white;
+}
+
+.btn-primary {
+	background-color: #08C380;
+	transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+	background-color: #06a86e;
+}
+
+.glassmorphism {
+	background: rgba(79, 48, 83, 0.2);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 1rem;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.flex.mobileHide {
+	display: block;
+}
+
+.flex.mobileShow {
+	display: none;
+}
+
+/* TYPOGRAPHY */
+.main-title {
+	font-weight: 600;
+}
+
+/* PAGE BACKGROUND */
+.main-bg {
+	background-image: url('img/main-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.top-gradient {
+	background-image: url('img/top-gradient.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.about-bg {
+	background-image: url('img/about-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* HOMEPAGE */
+@media screen and (max-width: 767px) {
+	.homeLogo {
+		display: flex;
+	}
+
+	.homeLogo img {
+		height: 80px;
+	}
+
+	.flex.mobileHide {
+		display: none;
+	}
+
+	.flex.mobileShow {
+		display: block;
+	}
+}
