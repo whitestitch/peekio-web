@@ -1,0 +1,17 @@
+# This file tells GitLab how to build and deploy your site to GitLab Pages.
+
+pages: # This is a special job name for GitLab Pages
+  stage: deploy
+  script:
+    # This command moves all your files into a 'public' directory.
+    # GitLab Pages requires all website content to be in a folder named 'public'.
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
+  artifacts:
+    paths:
+      # This tells GitLab to use the 'public' folder for the website.
+      - public
+  rules:
+    # This rule tells GitLab to only run this job on the 'main' branch.
+    - if: $CI_COMMIT_BRANCH == 'main'
