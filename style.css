@@ -54,6 +54,12 @@ body {
 	background-position: center;
 }
 
+.googleStore {
+	height: 62px;
+	margin-top: 13px;
+	margin-left: 20px;
+}
+
 /* HOMEPAGE */
 @media screen and (max-width: 767px) {
 	.homeLogo {
