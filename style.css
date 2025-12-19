@@ -60,6 +60,13 @@ body {
 	margin-left: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+	.googleStore {
+		height: 68px;
+		margin-top: 14px;
+	}
+}
+
 /* HOMEPAGE */
 @media screen and (max-width: 767px) {
 	.homeLogo {
