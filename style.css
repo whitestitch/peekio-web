@@ -85,3 +85,17 @@ body {
 		display: block;
 	}
 }
+
+@media screen and (max-width: 640px) {
+	.googleStore {
+		height: 62px;
+		margin-top: 14px;
+	}
+}
+
+@media screen and (max-width: 338px) {
+	.googleStore {
+		height: 58px;
+		margin-top: 14px;
+	}
+}
